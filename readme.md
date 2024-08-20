@@ -33,10 +33,6 @@ Certifique-se de ter o [Java Development Kit (JDK)](https://www.oracle.com/java/
 
 Se você deseja contribuir com melhorias ou correções, sinta-se à vontade para fazer um **pull request**. Para sugestões ou questões, abra uma **issue**.
 
-## Licença
-
-Este projeto é licenciado sob a [Licença MIT](LICENSE) - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
 ## Contato
 
 Se tiver alguma dúvida ou precisar de ajuda, você pode me encontrar em:
