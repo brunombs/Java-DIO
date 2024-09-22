@@ -1,14 +1,17 @@
 public class ContaDeBanco {
     public static void main(String[] args) {
         BankAccount conta = new BankAccount();
-        conta.accountNumber = 1234;
-        conta.balance = 350.32;
 
-        System.out.println("A conta " + conta.getAccountNumber() + " tem saldo no valor de: U$" + conta.balance);
+        conta.setAccountNumber(1234);
+        conta.setBalance(350.32);
+
+        System.out.println("A conta " + conta.getAccountNumber() + " tem saldo no valor de: U$" + conta.getBalance());
+
         conta.setAccountNumber(12345);
         System.out.println("O banco passou por uma mudança no sistema e alterou o número 5 no final de todas as contas.");
+
         conta.setBalance(390.41);
-        System.out.println("A conta " + conta.getAccountNumber() + " recebeu uma quantia de depósito e tem saldo atualizado no valor de: R$" + conta.balance);
+        System.out.println("A conta " + conta.getAccountNumber() + " recebeu uma quantia de depósito e tem saldo atualizado no valor de: R$" + conta.getBalance());
     }
 
     public static class BankAccount {
