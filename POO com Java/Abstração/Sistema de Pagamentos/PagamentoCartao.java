@@ -3,6 +3,6 @@ public class PagamentoCartao extends Pagamento{
 
     @Override
     public void realizarPagamento() {
-        System.out.println("Pagamento realizado com sucesso!");
+        System.out.println("A fatura do cartão no valor " + getValor() + " foi paga.");
     }
 }

@@ -3,6 +3,6 @@ public class PagamentoBoleto extends Pagamento{
 
     @Override
     public void realizarPagamento() {
-        System.out.println("O pagamento do boleto foi realizado com sucesso.");
+        System.out.println("O boleto no valor " + getValor() + " foi pago.");
     }
 }
