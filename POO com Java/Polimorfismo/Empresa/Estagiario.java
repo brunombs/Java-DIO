@@ -1,5 +1,5 @@
 public class Estagiario extends Funcionario{
-    private double salario;
+    private final double salario;
 
     public Estagiario(double salario){
         this.salario = salario;

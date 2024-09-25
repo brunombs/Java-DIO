@@ -1,6 +1,6 @@
 public class Gerente extends Funcionario {
-    private double salario;
-    private double comissao;
+    private final double salario;
+    private final double comissao;
 
     public Gerente(double salario, double comissao){
         this.salario = salario;
