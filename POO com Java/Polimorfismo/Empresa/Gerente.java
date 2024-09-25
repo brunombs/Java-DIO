@@ -1,6 +1,11 @@
 public class Gerente extends Funcionario {
-    private double salario = 4500.30;
-    private double comissao = 1455;
+    private double salario;
+    private double comissao;
+
+    public Gerente(double salario, double comissao){
+        this.salario = salario;
+        this.comissao = comissao;
+    }
 
     @Override
     public double calcularSalario() {

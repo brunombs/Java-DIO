@@ -1,11 +1,11 @@
 public class Empresa {
     public static void main(String[] args) {
-        Gerente gerente_local = new Gerente();
-        Gerente gerente_geral = new Gerente();
-        Vendedor vendedor_norte = new Vendedor();
-        Vendedor vendedor_sul = new Vendedor();
-        Estagiario estagiario_ti = new Estagiario();
-        Estagiario estagiario_mkt = new Estagiario();
+        Gerente gerente_local = new Gerente(7000, 1050);
+        Gerente gerente_geral = new Gerente(8500, 1250);
+        Vendedor vendedor_norte = new Vendedor(3000, 750);
+        Vendedor vendedor_sul = new Vendedor(2000, 500);
+        Estagiario estagiario_ti = new Estagiario(1500);
+        Estagiario estagiario_mkt = new Estagiario(1300.99);
 
         gerente_local.setNome("Bruno");
         gerente_geral.setNome("Pedro");

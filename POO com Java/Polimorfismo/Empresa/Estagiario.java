@@ -1,5 +1,9 @@
 public class Estagiario extends Funcionario{
-    private double salario = 1300.33;
+    private double salario;
+
+    public Estagiario(double salario){
+        this.salario = salario;
+    }
 
     @Override
     public double calcularSalario() {

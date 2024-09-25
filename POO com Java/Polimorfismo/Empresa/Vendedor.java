@@ -1,6 +1,11 @@
 public class Vendedor extends Funcionario {
-    private final double salarioBase = 2100.99;
-    private final double comissaoDeVenda = 500;
+    private final double salarioBase;
+    private final double comissaoDeVenda;
+
+    public Vendedor(double salarioBase, double comissaoDeVenda) {
+        this.salarioBase = salarioBase;
+        this.comissaoDeVenda = comissaoDeVenda;
+    }
 
     @Override
     public double calcularSalario() {
