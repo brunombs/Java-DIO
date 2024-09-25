@@ -14,6 +14,6 @@ public class Jogo {
         jogofisico.setPeso(132.20);
 
         System.out.println(jogodigital.getTitulo() + " é do gênero " + jogodigital.getGenero() + " e custa R$" + jogodigital.getPreco() + " e pesa " + jogodigital.getTamanhoDownload() + "GB");
-        System.out.println(jogofisico.getTitulo() + " é do gênero  " + jogofisico.getGenero() + " e custa R$" + jogofisico.getPreco() + " e pesa " + jogofisico.getPeso() + "gr");
+        System.out.println(jogofisico.getTitulo() + " é do gênero " + jogofisico.getGenero() + " e custa R$" + jogofisico.getPreco() + " e pesa " + jogofisico.getPeso() + "gr");
     }
 }
