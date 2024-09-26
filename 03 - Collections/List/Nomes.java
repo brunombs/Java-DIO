@@ -13,5 +13,15 @@ public class Nomes {
             nomes.add(nome);
         }
         System.out.println("Os nomes na lista são: " + nomes);
+
+        System.out.println("Remova o nome de uma pessoa da lista: ");
+        String remover = scanner.nextLine();
+        nomes.remove(remover);
+        System.out.println("A lista atualizada: " + nomes);
+
+        System.out.println("Diga o nome da pessoa que você quer verificar se está ou não na lista: ");
+        String nomeParaVerificar = scanner.nextLine();
+        boolean estaNaLista = nomes.contains(nomeParaVerificar);
+        System.out.println(nomeParaVerificar + " está na lista? " + estaNaLista);
     }
 }
