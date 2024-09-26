@@ -5,12 +5,12 @@ public class Nomes {
         Scanner scanner = new Scanner(System.in);
         List<String> nomes = new ArrayList<>();
         int cont = 0;
-
+        System.out.println("Nossa lista vai conter o nome de 5 pessoas.");
         while (cont < 5) {
-            System.out.println("Digite o nome de uma pessoa para adicionar na nossa lista: ");
+            cont++;
+            System.out.println("Digite o nome da " + cont + "ª pessoa para adicionar na nossa lista: ");
             String nome = scanner.nextLine();
             nomes.add(nome);
-            cont++;
         }
         System.out.println("Os nomes na lista são: " + nomes);
     }
