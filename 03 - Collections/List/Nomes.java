@@ -23,5 +23,8 @@ public class Nomes {
         String nomeParaVerificar = scanner.nextLine();
         boolean estaNaLista = nomes.contains(nomeParaVerificar);
         System.out.println(nomeParaVerificar + " está na lista? " + estaNaLista);
+
+        nomes.clear();
+        System.out.println("A lista agora está vazia: " + nomes);
     }
 }
