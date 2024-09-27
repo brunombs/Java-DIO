@@ -1,4 +1,4 @@
-package main.java.list;
+package main.java.list.treino;
 
 import java.util.*;
 
