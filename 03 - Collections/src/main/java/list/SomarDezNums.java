@@ -1,3 +1,5 @@
+package main.java.list;
+
 import java.util.ArrayList;
 import java.util.Random;
 
