@@ -1,12 +1,10 @@
 package main.java.list.Pesquisa;
 
-import main.java.list.OperacoesBasicas.Item;
-
 import java.util.ArrayList;
 import java.util.List;
 
 public class CatalogoLivros {
-    private List<Livro> livros;
+    private final List<Livro> livros;
 
     public CatalogoLivros() {
         this.livros = new ArrayList<>();
